@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Universitas Handayani Makassar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+  href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Fira+Sans:ital,wght@0,300;0,400;0,600;0,700;1,600&family=Inter:wght@200;400;600;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,400;1,500&display=swap"
+  rel="stylesheet">
+<link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.css">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      keyframes:{
+          card:{
+            '0%' :{ transform: 'translate(2px,5px)' }
+          },
+          anim:{
+            '0%':{transform: 'scale(0.5)'},
+            '100%':{transform:'scale(0.7)'},
+          },
+        },
+      extend: {
+        animation:{
+          card:'card 1s ease infinite alternate',
+          anim:'anim 1s ease infinite alternate',
+        },
+        height:{
+          '500':'540px',
+        },
+        colors: {
+          clifford: '#da373d',
+          'traja':'#33333377',
+        },
+        spacing: {
+          '54': '54px',
+        },
+        fontFamily: {
+          'roboto': ['Roboto'],
+        },
+    }
+  }
+}
+</script>
+
+<body class="relative font-roboto font-normal">
+  <!-- heaader -->
+  <header class="relative flex justify-between items-center w-full m-0 bg-blue-950">
+    <ol class="flex w-2/3 justify-between pl-24 uppercase text-sm h-16 items-center text-white duration">
+      <!-- dorp kusioner -->
+      <li class="cursor-pointer py-4 group hover:text-gray-300">
+        <p>kusioner
+        <div
+          class="dordown hidden absolute top-10 bg-white shadow text-black text-xs group-hover:block duration-500 z-10">
+          <ol class="p-3 text-left">
+            <li class="py-1.5 hover:bg-slate-300 px-1">kusionr pemahaman visi dan misi</li>
+            <li class="py-1.5 hover:bg-slate-300 px-1">saran dan kritik</li>
+            <li class="py-1.5 hover:bg-slate-300 px-1">tracer studi uhm</li>
+          </ol>
+        </div>
+        </p>
+      </li>
+      <!-- end kusioner -->
+      <!-- e-siakad -->
+      <li class="relative py-4 group hover:text-gray-300 cursor-pointer"><a>e-siakad
+          <div
+            class="dordown w-44 hidden absolute top-10 bg-white shadow text-black text-xs group-hover:block duration-500 z-10 ">
+            <ol class="p-3 text-left">
+              <li class="py-1.5 hover:bg-slate-300 px-1">siakad mahasiswa</li>
+              <li class="py-1.5 hover:bg-slate-300 px-1">siaka dosen</li>
+              <li class="py-1.5 hover:bg-slate-300 px-1">siakad keungan</li>
+              <li class="py-1.5 hover:bg-slate-300 px-1">operator</li>
+            </ol>
+          </div>
+        </a></li>
+      <!-- end e-siakad -->
+      <li class="hover:text-gray-300"><a href="">e-sister</a></li>
+      <li class="hover:text-gray-300"><a href="">e-learning</a></li>
+      <li class="hover:text-gray-300"><a href="">lmpi</a></li>
+      <li class="hover:text-gray-300"><a href="">lppm</a></li>
+      <!-- uspmb -->
+      <li class="hover:text-gray-300 group "><a href="">uspmb
+          <div
+            class="dordown w-44 hidden absolute top-10 bg-white shadow text-black text-xs group-hover:block duration-500 ">
+            <ol class="p-3 text-left">
+              <li class="py-1.5 hover:bg-slate-300 px-1">operator ujian pmb</li>
+              <li class="py-1.5 hover:bg-slate-300 px-1">peserta baru</li>
+            </ol>
+          </div>
+        </a></li>
+      <!-- end uspmb -->
+      <li class="hover:text-gray-300"><a href="">E-simpes</a></li>
+      <li class="hover:text-gray-300"><a href="">e-sapras</a></li>
+
+    </ol>
+    <!-- seacrh -->
+    <ol class="pr-24 flex items-center ">
+      <span class="p-2"> <i
+          class="fa-solid fa-magnifying-glass hover:scale-150 hover:text-white text-white duration-500 cursor-pointer pr-2"></i></span>
+      <input type="text" class="py-2 h-8 rounded bg-slate-300 focus:border-none text-xs">
+    </ol>
+    <!-- end search -->
+  </header>
+  <!-- navigasi/nav bar -->
+  <nav class="relative flex  justify-between m-auto items-center h-20 my-5 ">
+    <div class="ml-24">
+      <img src="https://handayani.ac.id/wp-content/uploads/2022/08/mainlogo.png" alt="" class="w-80 -z-10">
+    </div>
+    <ol class="relative mr-24 flex w-2/4 justify-between z-10">
+      <li class="hover:text-blue-800 py-3"><a href="">home</a></li>
+      <!-- profil -->
+      <li class="hover:text-blue-800 py-3  group"><a href="">profil
+          <div class="dordown hidden absolute top-10 bg-white shadow text-black text-xs group-hover:block duration-500">
+            <ol class="p-3 text-left">
+              <li class="py-1.5 hover:bg-slate-300 px-1">yayasan</li>
+              <li class="py-1.5 hover:bg-slate-300 px-1">sejarah uhm</li>
+              <li class="py-1.5 hover:bg-slate-300 px-1">visi & misi</li>
+              <li class="py-1.5 hover:bg-slate-300 px-1">struktur organisasi</li>
+              <li class="py-1.5 hover:bg-slate-300 px-1">dosen</li>
+              <li class="py-1.5 hover:bg-slate-300 px-1">sarana pendidikan</li>
+              <li class="py-1.5 hover:bg-slate-300 px-1">pusat pengembangan</li>
+              <li class="py-1.5 hover:bg-slate-300 px-1">akreditasi</li>
+              <li class="py-1.5 hover:bg-slate-300 px-1">logo uhm</li>
+            </ol>
+          </div>
+        </a></li>
+      <!-- end profil -->
+      <li class="hover:text-blue-800 py-3 group"><a href="">akademik
+          <div class="dordown hidden absolute top-10 bg-white shadow text-black text-xs group-hover:block duration-500">
+            <ol class="p-3 text-left">
+              <li class="py-1.5 hover:bg-slate-300 px-1">fakultas</li>
+              <li class="py-1.5 hover:bg-slate-300 px-1">kelender akademik</li>
+              <li class="py-1.5 hover:bg-slate-300 px-1">pengaturan akademik</li>
+              <li class="py-1.5 hover:bg-slate-300 px-1">biaya pendidikan</li>
+              <li class="py-1.5 hover:bg-slate-300 px-1">kemahasiswaan</li>
+            </ol>
+          </div>
+        </a></li>
+      <!-- informasi -->
+      <li class="hover:text-blue-800 py-3 group"><a href="">informasi
+          <div class="dordown hidden absolute top-10 bg-white shadow text-black text-xs group-hover:block duration-500">
+            <ol class="p-3 text-left">
+              <li class="py-1.5 hover:bg-slate-300 px-1">pengumuman</li>
+              <li class="py-1.5 hover:bg-slate-300 px-1">berita</li>
+
+            </ol>
+          </div>
+        </a></li>
+      <!-- end informasi -->
+      <!-- layanan -->
+      <li class="hover:text-blue-800 py-3 group"><a href="">layanan
+          <div class="dordown hidden absolute top-10 bg-white shadow text-black text-xs group-hover:block duration-500">
+            <ol class="p-3 text-left">
+              <li class="py-1.5 hover:bg-slate-300 px-1">siakad mahasiswa</li>
+              <li class="py-1.5 hover:bg-slate-300 px-1">siakad dosen</li>
+              <li class="py-1.5 hover:bg-slate-300 px-1">siakad operator</li>
+              <li class="py-1.5 hover:bg-slate-300 px-1">biaya pendidikan</li>
+              <li class="py-1.5 hover:bg-slate-300 px-1">repository</li>
+              <li class="py-1.5 hover:bg-slate-300 px-1">sister ristekdikti</li>
+              <li class="py-1.5 hover:bg-slate-300 px-1">blog dosen</li>
+              <li class="py-1.5 hover:bg-slate-300 px-1">g suite for education</li>
+              <li class="py-1.5 hover:bg-slate-300 px-1">e journal</li>
+              <li class="py-1.5 hover:bg-slate-300 px-1">google clssroom</li>
+              <li class="py-1.5 hover:bg-slate-300 px-1">e-learning (moodle)</li>
+              <li class="py-1.5 hover:bg-slate-300 px-1">digital library</li>
+              <li class="py-1.5 hover:bg-slate-300 px-1">kusioner</li>
+            </ol>
+          </div>
+        </a></li>
+      <!-- end layann -->
+      <li class="hover:text-blue-800 py-3"><a href="">kontak</a></li>
+      <li class="hover:text-blue-800 py-3"><a href=""
+          class="bg-blue-950 p-3 text-white rounded hover:bg-blue-900">pendaftaran maba</a></li>
+    </ol>
+  </nav>
+  <!-- en navigasi -->
+  <!-- jumbotron -->
+  <div id="slider">
+    <figure>
+      <img
+        src="https://handayani.ac.id/wp-content/uploads/2022/08/imgonline-com-ua-CompressToSize-clEpbDq1MpvpYB-1170x400.jpg"
+        alt="">
+      <img src="https://handayani.ac.id/wp-content/uploads/2022/08/IMG_9348-1170x400.jpg" alt="">
+      <img src="https://handayani.ac.id/wp-content/uploads/2022/08/AIM-07370-1170x400.jpg" alt="">
+      <img
+        src="https://handayani.ac.id/wp-content/uploads/2022/08/imgonline-com-ua-CompressToSize-GboxzK4LZUEzKRTO-1170x400.jpg"
+        alt="">
+      <img src="https://handayani.ac.id/wp-content/uploads/2022/08/IMG20220829085206_01-e1661926331912-1170x400.jpg"
+        alt="">
+    </figure>
+    <div class="radio">
+    </div>
+    <div id="lingkaran">
+      <div class="bundaran b1"></div>
+      <div class="bundaran b2"></div>
+      <div class="bundaran b3"></div>
+      <div class="bundaran b4"></div>
+      <div class="bundaran b5"></div>
+    </div>
+  </div>
+  <!-- end jumbotron -->
+  <!-- card fakulta -->
+  <h1 class="text-center text-5xl font-bold uppercase mb-4 mt-8">Fakultas UHM</h1>
+ <section class="relative flex m-auto justify-center gap-10">
+  <div class="card relative w-2/5  ml-24 rounded shadow-md p-5 hover:animate-card duration-500 group">
+    <img src="img/ilkom.png" alt="" class="w-full  block m-auto group-hover:blur-md duration-500 group-hover:animate-anim" >
+    <!-- txt -->
+    <div class="txt uppercase hidden bg-traja absolute top-0 text-center p-4 box-border w-full h-full m-auto left-0 z-10 text-white group-hover:block rounded ">
+      <h1 class="mt-14 mb-4 text-5xl font-bold text-white">Fakultas hukum & ilmu sosial</h1>
+      <p class="my-5 text-3xl">s1 hukum <br> s1 ilmu sosial</p>
+      <span>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quas sed quo eligendi nisi iusto labore minima et suscipit, error aliquam ipsa eaque, quis consectetur necessitatibus magnam repellat qui quaerat!
+      </span>
+      <a href="" class="block text-black p-4 bg-white mt-4 hover:bg-gray-900 text-3xl hover:text-white">visite</a>
+    </div>
+    <!-- end txt -->
+    <!-- cover -->
+    <div class="cover absolute top-0 left-0 m-auto w-full text-center text-5xl bg-blue-950 group-hover:hidden">
+      <p class="p-4 mt-4 text-white uppercase font-semibold">ilkom</p>
+    </div>
+  </div>
+  <!-- hukum -->
+  <div class="card relative w-2/5 h-1/2 mr-24 rounded shadow-md p-5 hover:animate-card duration-500 group">
+    <img src="img/hukum.png" alt="" class="w-full block m-auto group-hover:blur-md duration-500 group-hover:animate-anim" >
+    <!-- txt -->
+    <div class="txt uppercase hidden bg-traja absolute top-0 text-center p-4 box-border w-full h-full m-auto left-0 z-10 text-white group-hover:block rounded ">
+      <h1 class="mt-14 mb-4 text-5xl font-bold text-white">Fakultas hukum & ilmu sosial</h1>
+      <p class="my-5 text-3xl">s1 hukum <br> s1 ilmu sosial</p>
+      <span>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quas sed quo eligendi nisi iusto labore minima et suscipit, error aliquam ipsa eaque, quis consectetur necessitatibus magnam repellat qui quaerat!
+      </span>
+      <a href="" class="block text-3xl text-black p-4 bg-white mt-4 hover:bg-gray-900 hover:text-white">visite</a>
+    </div>
+    <!-- end txt -->
+    <!-- cover -->
+    <div class="cover absolute top-0 left-0 m-auto w-full text-center text-5xl bg-blue-950 group-hover:hidden">
+      <p class="p-4 mt-4 uppercase font-semibold text-white">hukum</p>
+    </div>
+  </div>
+ </section>
+  <!--end fakultas -->
+  <!-- sambutan -->
+  <section class="w-86% m-auto mt-14 ">
+    <h2 class="text-center text-4xl mb-4 font-semibold">Selamat Datang Di Universi Handayani Makassar</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/lsO5igRUtSo" frameborder="0" allowfullscreen class="block w-full h-500 px-24"></iframe>
+  </section>
+  <!--end sambutan -->
+
+  <!-- sosial-media -->
+  <!-- end sosial-media -->
+</body>
+
+</html>

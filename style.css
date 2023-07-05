@@ -1,0 +1,243 @@
+#slider{
+  overflow: hidden;
+  width: 86%;
+  margin: auto;
+}
+#slider figure{
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite;
+}
+#slider figure img{
+  float: left;
+  width: 20%;
+}
+@keyframes slider{
+  0%{
+    left: 0;
+  }
+  20%{
+    left: 0;
+  }
+  25%{
+    left: -100%;
+  }
+  35%{
+    left: -100%;
+  }
+  40%{
+    left: -200%;
+  }
+  55%{
+    left: -200%;
+  }
+  60%{
+    left: -300%;
+  }
+  75%{
+    left: -300%;
+  }
+  80%{
+    left: -400%;
+  }
+  95%{
+    left: -400%;
+  }
+}
+.radio{
+  clear: both;
+}
+#lingkaran{
+  margin: auto;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+#lingkaran .bundaran{
+  width: 10px;
+  height: 10px;
+  border: 1px solid blue;
+  border-radius: 50%;
+  margin: 4px;
+}
+.b1{
+  animation: 20s b1 infinite  ;
+
+}
+@keyframes b1{
+  0%{
+    background-color: blue;
+  }
+  20%{
+    background-color: blue;
+  }
+  25%{
+    background-color: transparent;
+  }
+  35%{
+    background-color: transparent;
+  }
+  40%{
+    background-color: transparent;
+  }
+  55%{
+    background-color: transparent;
+  }
+  60%{
+    background-color: transparent;
+  }
+  75%{
+    background-color: transparent;
+  }
+  80%{
+    background-color: transparent;
+  }
+  95%{
+  background-color: transparent;
+  }
+
+}
+.b2{
+  animation: 20s b2 infinite ;
+}
+@keyframes b2 {
+  0%{
+    background-color:transparent;
+  }
+  20%{
+    background-color: transparent;
+  }
+  25%{
+    background-color: blue;
+  }
+  35%{
+    background-color: blue;
+  }
+  40%{
+    background-color: transparent;
+  }
+  55%{
+    background-color: transparent;
+  }
+  60%{
+    background-color: transparent;
+  }
+  75%{
+    background-color: transparent;
+  }
+  80%{
+    background-color: transparent;
+  }
+  95%{
+   background-color: transparent;
+  }
+}
+.b3{
+  animation: 20s b3 infinite ;
+}
+@keyframes b3 {
+  0%{
+    background-color:transparent;
+  }
+  20%{
+    background-color: transparent;
+  }
+  25%{
+    background-color: transparent;
+  }
+  35%{
+    background-color:transparent;
+  }
+  40%{
+    background-color: blue;
+  }
+  55%{
+    background-color: blue;
+  }
+  60%{
+    background-color: transparent;
+  }
+  75%{
+    background-color: transparent;
+  }
+  80%{
+    background-color: transparent;
+  }
+  95%{
+    background-color: transparent;
+      }
+}
+.b4{
+  animation: 20s b4 infinite ;
+}
+@keyframes b4 {
+  0%{
+    background-color:transparent;
+  }
+  20%{
+    background-color: transparent;
+  }
+  25%{
+    background-color: transparent;
+  }
+  35%{
+    background-color: transparent;
+  }
+  40%{
+    background-color: transparent;
+  }
+  55%{
+    background-color: transparent;
+  }
+  60%{
+    background-color: blue;
+  }
+  75%{
+    background-color: blue;
+  }
+  80%{
+    background-color: transparent;
+  }
+  95%{
+    left: -400%;
+  }
+}
+.b5{
+  animation: 20s b5 infinite ;
+}
+@keyframes b5 {
+  0%{
+    background-color:transparent;
+  }
+  20%{
+    background-color: transparent;
+  }
+  25%{
+    background-color: transparent;
+  }
+  35%{
+    background-color: transparent;
+  }
+  40%{
+    background-color: transparent;
+  }
+  55%{
+    background-color: transparent;
+  }
+  60%{
+    background-color: transparent;
+  }
+  75%{
+    background-color:transparent;
+  }
+  80%{
+    background-color: blue;
+  }
+  95%{
+    background-color: blue;
+  }
+}
+/* card */
